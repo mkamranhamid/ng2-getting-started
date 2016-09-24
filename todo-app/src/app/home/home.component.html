@@ -1,0 +1,16 @@
+<ul class="todoList">
+    <li *ngFor="let hero of todo; let i = index;" class="todos">
+        <p class="todoText">{{hero}}</p>
+        <!--<div (click)="delTodo(i)" class="deleteIcon"></div>
+        <div (click)="editTodo(i,hero)" class="editIcon"></div>-->
+        <button (click)="delTodo(i)"><img src="../../../public/images/trash.png" alt="trash" class="deleteIcon"/></button>
+        <button (click)="editTodo(i,hero)"><img src="../../../public/images/edit.png" alt="edit" class="editIcon"/></button>
+    </li>
+</ul>
+<div class="inputBox">
+    <div class="inputWrapper">
+    <input type="text" [(ngModel)]="name" placeholder="enter todo" class="inputSize"/>
+    </div>
+        <button (click)="addToList()">Add</button>
+</div>
+

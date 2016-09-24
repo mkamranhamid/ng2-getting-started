@@ -1,0 +1,66 @@
+.todoText {
+    color: #2485bf;
+    display: inline;
+}
+.todoList {
+    width: 15em;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+.todos {
+    width: 95%;
+    height: 2em;
+    background: #cecccc;
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 6px;
+    display: block;
+}
+.inputBox {
+    width: 25em;
+    height: 7em;
+    margin: 0 auto;
+}
+.inputWrapper {
+    width: 99%;
+    height: 3em;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 35px;
+}
+.inputSize {
+    width: 99%;
+    height: 3em;
+    border-radius: 28px;
+}
+.deleteIcon {
+   /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    height: 54vh;
+    background: url(../../../public/images/trash2.png) no-repeat;
+    background-size: 5%;
+    overflow: hidden;
+    background-image: url("../../../public/images/trash2.png");
+    background-repeat: no-repeat;
+    min-width: 52px;
+    min-height: 20px;
+    width:52px;
+    height: 20px;
+    border:0;*/
+    width: 10px;
+}
+.editIcon {
+    width: 10px;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    height: 54vh;
+    background: url(../../../public/images/edit.png) no-repeat;
+    background-size: 5%;
+    overflow: hidden;*/
+}
